@@ -2,3 +2,5 @@ flask==2.0.1
 sqlite3
 pytest
 requests==2.26.0
+certifi>=2024.7.4 # not directly required, pinned by Snyk to avoid a vulnerability
+idna>=3.7 # not directly required, pinned by Snyk to avoid a vulnerability
